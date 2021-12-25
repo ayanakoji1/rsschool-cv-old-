@@ -5,7 +5,6 @@
 * E-mail: romanbartoshv@gmail.com
 * Telegram: @sevenZ
 * [Linkidin](https://www.linkedin.com/in/roman-bartosh-9887601a3/)
-________________________________________________________________________
 
 ## Briefly About Myself
 
@@ -18,7 +17,7 @@ I like programming, because it allows you to create something new, does not allo
 I have experience in website layout, in pure HTML5 and CSS. Minimum freelance experience.
 
 **Strengths**: If you ask me a question to which I do not know the answer, I will answer that I do not know. But, believe me, I know how to find it, this answer, and I will find it.
-___________________________________________________________________________________________
+
 
 ## Skills 
 * HTML5
@@ -26,7 +25,7 @@ ________________________________________________________________________________
 * JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)
 * Git/GitHub
 * React (Fundamentals)
-___________________________________________________________________________________________
+
 
 ## Code example
 
@@ -42,7 +41,7 @@ ________________________________________________________________________________
 
 * Creation of modern responsive websites. [HTML5, CSS3](https://www.udemy.com/course/web-professional-html5/)
 * An intense [JavaScript](https://www.udemy.com/course/intensive-js/) dive (in progress)
-___________________________________________________________________________________________
+
 
 ## Languages
 
