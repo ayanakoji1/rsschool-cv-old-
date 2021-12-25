@@ -8,7 +8,6 @@
 
 ## Briefly About Myself
 
-
 I like programming, because it allows you to create something new, does not allow you to degrade and opens new doors in front of you.
 
 **My goals**:
@@ -18,7 +17,6 @@ I have experience in website layout, in pure HTML5 and CSS. Minimum freelance ex
 
 **Strengths**: If you ask me a question to which I do not know the answer, I will answer that I do not know. But, believe me, I know how to find it, this answer, and I will find it.
 
-
 ## Skills 
 * HTML5
 * CSS (SASS/SCSS, BEM)
@@ -26,8 +24,7 @@ I have experience in website layout, in pure HTML5 and CSS. Minimum freelance ex
 * Git/GitHub
 * React (Fundamentals)
 
-
-## Code example
+## Code example:
 
 ```
 function multiply(a, b){
@@ -37,13 +34,12 @@ function multiply(a, b){
 ```
 ___________________________________________________________________________________________
 
-## Courses
+## Courses:
 
 * Creation of modern responsive websites. [HTML5, CSS3](https://www.udemy.com/course/web-professional-html5/)
 * An intense [JavaScript](https://www.udemy.com/course/intensive-js/) dive (in progress)
 
-
-## Languages
+## Languages:
 
 * Russian - Native
 * English - A2 (Pre-Intermediate)
