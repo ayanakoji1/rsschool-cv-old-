@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+body {
+    position: relative;
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
+}
+body.switchMode {
+    background-color: #fff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+header {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+.header_head {
+    position: relative;
+    background-color: #070607; 
+}
+.head_inner {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+.head_inner .logo {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ccc;
+}
+.head_inner nav ul {
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+.head_inner nav ul li {
+    list-style: none;
+}
+.head_inner nav ul li a {
+    font-size: 14px;
+    color: #ccc;
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.head_inner nav ul li.switch a {
+    position: relative;
+    width: 45px;
+    height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 10em;
+    padding: 0;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.head_inner nav ul li.switch a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 10em;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s;
+}
+
+body.switchMode .head_inner nav ul li.switch a:after {
+    left: 20px;
+}
+.header_body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 130px;
+}
+.header_body_inner {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    width: 100%;
+}
+.header_body_inner .left .title {
+    color: #ccc;
+    font-size: 48px;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s;
+}
+h1 {
+    color: #ccc;
+    font-size: 48px; 
+}
+body.switchMode .header_body_inner .left .title {
+    color: #000;
+}
+.header_body_inner .left .title span {
+    color:aqua;
+}
+a.btn {
+    display: inline-block;
+    background-color: aqua;
+    color: #000;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.about-me {
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    height: 20%;
+}
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: aqua;
+    margin-bottom: 15px;
+}
+body.switchMode .section-title{
+    color: #000;
+}
+.about-me p{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+    color: #fff;;
+}
+body.switchMode .about-me p {
+    color: #000;
+}
+.skills {
+    font-size: 18px;
+    margin-bottom: 54px;
+    font-family: sans-serif;
+    color: #fff;  
+}
+
+ul li {
+    font-size: 18px;
+    padding: 10px 10px;
+    font-family: sans-serif;  
+    color: #fff;
+}
+body.switchMode ul li {
+    color: #000;
+}
+a {
+    text-decoration: none;
+    color: #fc9d0f;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(15, 122, 252, 0.2);
+}
+a:hover {
+    text-decoration: none; 
+    color: #cf0000;
+    border-bottom-color: rgba(208, 64, 0, 0.2);
+}
+
+.courses {
+    margin-bottom: 54px;
+}
+.code-example {
+    width: 100%;
+    margin-bottom: 34px;
+}
+.code {
+    margin-bottom: 34px;
+}
+pre {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 14px;
+    color: #fff;
+}
+summary {
+    color: #fff; 
+    font-size: 20px;
+}
+body.switchMode summary{
+    color: #000;
+}
+body.switchMode code{
+    color: #000;
+}
+.projects {
+    margin-bottom: 34px;
+}
+.education_english {
+    margin-bottom: 34px;  
+}
+.contacts {
+    margin-bottom: 34px;  
+}
+footer {
+ position: relative;
+ padding: 10px 0;
+ background-color: #fff;
+}
+.footer_inner {
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.footer_inner{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
