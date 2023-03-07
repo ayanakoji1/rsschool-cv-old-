@@ -1,1 +1,1 @@
-# https://ayanakoji1.github.io/rsschool-cv/
+# https://lostIden.github.io/rsschool-cv/
